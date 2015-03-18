@@ -39,10 +39,11 @@ public class GuessNumber implements Serializable{
 			if (guess == number) {
 				temp = "You got it!";
 			} else {
-				temp = "Too high";
+				temp = "Too high" ;
 			}
 
 		}
+		temp += number;
 		return temp;
 	}
 }
